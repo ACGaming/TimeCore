@@ -21,7 +21,6 @@ public class Reference {
 		NIGHTCAPSULE("NightCapsule", "ItemNightCapsule"),
 		//Essences
 		DAYESS("DaylightEssence", "ItemDayEss"),
-		EMPTYCON("EmptyEssenceContainer", "ItemEmptyContainer"),
 		NIGHTESS("MoonlightEssence", "ItemNightEss"),
 		RAINESS("CloudEssence", "ItemRainEss"),
 		SUNESS("SunlightEssence", "ItemSunEss"),

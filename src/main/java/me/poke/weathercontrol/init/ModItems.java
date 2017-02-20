@@ -8,7 +8,6 @@ import me.poke.weathercontrol.items.capsule.ItemRainCap;
 import me.poke.weathercontrol.items.capsule.ItemSunCap;
 import me.poke.weathercontrol.items.capsule.ItemThunderStormCap;
 import me.poke.weathercontrol.items.essence.ItemDayEss;
-import me.poke.weathercontrol.items.essence.ItemEmptyContainer;
 import me.poke.weathercontrol.items.essence.ItemNightEss;
 import me.poke.weathercontrol.items.essence.ItemRainEss;
 import me.poke.weathercontrol.items.essence.ItemSunEss;
@@ -36,7 +35,6 @@ public class ModItems {
 		NightCapsule = new ItemNightCap();
 		
 		//Essences
-		EmptyEssenceContainer = new ItemEmptyContainer();
 		SunEss = new ItemSunEss();
 		RainEss = new ItemRainEss();
 		ThunderEss = new ItemThunderEss();
@@ -55,7 +53,6 @@ public class ModItems {
 		GameRegistry.register(NightCapsule);
 		
 		//Essences
-		GameRegistry.register(EmptyEssenceContainer);
 		GameRegistry.register(SunEss);
 		GameRegistry.register(RainEss);
 		GameRegistry.register(ThunderEss);
@@ -73,7 +70,6 @@ public class ModItems {
 		registerRender(NightCapsule);
 		
 		//Essences
-		registerRender(EmptyEssenceContainer);
 		registerRender(SunEss);
 		registerRender(RainEss);
 		registerRender(ThunderEss);
