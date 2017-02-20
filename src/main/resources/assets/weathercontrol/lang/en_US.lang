@@ -2,9 +2,19 @@ item.EmptyCapsule.name=Empty Capsule
 item.SunCapsule.name=Sunlight Capsule
 item.RainCapsule.name=Rain Capsule
 item.ThunderStormCapsule.name=Thunder Storm Capsule
-item.DayCapsule.name=Day Capsule
-item.NightCapsule.name=Night Capsule
+item.DayCapsule.name=Daylight Capsule
+item.NightCapsule.name=Moonlight Capsule
 
-tile.SunOre.name=Sun Ore
+item.DaylightEssence.name=Condensed Daylight Fragment
+item.MoonlightEssence.name=Condensed Lunar Fragment
+item.CloudEssence.name=Condensed Cloud Fragment
+item.SunlightEssence.name=Condensed Sunlight Fragment
+item.ThunderEssence.name=Condensed Thunder Fragment
+
+tile.SunOre.name=Condensed Daylight Ore
+tile.ClearOre.name=Condensed Sunlight Ore
+tile.MoonOre.name=Condensed Moonlight Ore
+tile.ThunderOre.name=Condensed Thunder Ore
+tile.CloudOre.name=Condensed Cloud Ore
 
 itemGroup.tabWeatherControl=Weather Control

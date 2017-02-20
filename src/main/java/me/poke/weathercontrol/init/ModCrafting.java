@@ -9,9 +9,15 @@ public class ModCrafting {
 
 	public static void register()
 	{
-		//Capsule
-		GameRegistry.addShapedRecipe(new ItemStack(ModItems.EmptyCapsule), " I ", "IGI", " I ", 'I', Items.IRON_INGOT, 'G', Blocks.GLASS);
-		
+		//Capsules
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.EmptyCapsule), "OEO", "DGD", "OEO", 'G', Blocks.GLASS_PANE, 'O', Items.GOLD_INGOT, 'E', Items.EMERALD, 'D', Items.DIAMOND);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.DayCapsule), " E ", "ECE", " E ", 'C', ModItems.EmptyCapsule, 'E', ModItems.DayEss);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.NightCapsule), " E ", "ECE", " E ", 'C', ModItems.EmptyCapsule, 'E', ModItems.NightEss);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.RainCapsule), " E ", "ECE", " E ", 'C', ModItems.EmptyCapsule, 'E', ModItems.RainEss);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.SunCapsule), " E ", "ECE", " E ", 'C', ModItems.EmptyCapsule, 'E', ModItems.SunEss);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.ThunderStormCapsule), " E ", "ECE", " E ", 'C', ModItems.EmptyCapsule, 'E', ModItems.ThunderEss);
+
+
 		
 		//Smelting
 		GameRegistry.addSmelting(ModBlocks.ClearOre, new ItemStack(ModItems.SunEss), 0);
