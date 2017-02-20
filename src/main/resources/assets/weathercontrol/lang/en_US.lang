@@ -1,0 +1,10 @@
+item.EmptyCapsule.name=Empty Capsule
+item.SunCapsule.name=Sunlight Capsule
+item.RainCapsule.name=Rain Capsule
+item.ThunderStormCapsule.name=Thunder Storm Capsule
+item.DayCapsule.name=Day Capsule
+item.NightCapsule.name=Night Capsule
+
+tile.SunOre.name=Sun Ore
+
+itemGroup.tabWeatherControl=Weather Control

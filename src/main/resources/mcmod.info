@@ -1,0 +1,15 @@
+[
+{
+  "modid": "weathercontrol",
+  "name": "Weather Control mod",
+  "description": "Mod that lets you control the weather!",
+  "version": "ALPHA",
+  "mcversion": "1.10.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Poke"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
