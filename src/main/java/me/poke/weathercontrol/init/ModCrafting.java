@@ -11,12 +11,11 @@ public class ModCrafting {
 	{
 		//Capsules
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.EmptyCapsule), "OEO", "DGD", "OEO", 'G', Blocks.GLASS_PANE, 'O', Items.GOLD_INGOT, 'E', Items.EMERALD, 'D', Items.DIAMOND);
-		GameRegistry.addShapedRecipe(new ItemStack(ModItems.DayCapsule), " E ", "ECE", " E ", 'C', ModItems.EmptyCapsule, 'E', ModItems.DayEss);
-		GameRegistry.addShapedRecipe(new ItemStack(ModItems.NightCapsule), " E ", "ECE", " E ", 'C', ModItems.EmptyCapsule, 'E', ModItems.NightEss);
-		GameRegistry.addShapedRecipe(new ItemStack(ModItems.RainCapsule), " E ", "ECE", " E ", 'C', ModItems.EmptyCapsule, 'E', ModItems.RainEss);
-		GameRegistry.addShapedRecipe(new ItemStack(ModItems.SunCapsule), " E ", "ECE", " E ", 'C', ModItems.EmptyCapsule, 'E', ModItems.SunEss);
-		GameRegistry.addShapedRecipe(new ItemStack(ModItems.ThunderStormCapsule), " E ", "ECE", " E ", 'C', ModItems.EmptyCapsule, 'E', ModItems.ThunderEss);
-
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.DayCapsule), ModItems.NetherStarShard, ModItems.DayCore);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.NightCapsule), ModItems.NetherStarShard, ModItems.NightCore);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.RainCapsule), ModItems.NetherStarShard, ModItems.RainCore);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.SunCapsule), ModItems.NetherStarShard, ModItems.SunCore);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ThunderStormCapsule), ModItems.NetherStarShard, ModItems.ThunderCore);
 
 		
 		//Smelting
