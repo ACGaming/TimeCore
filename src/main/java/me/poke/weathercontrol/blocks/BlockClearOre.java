@@ -11,8 +11,9 @@ public class BlockClearOre extends Block {
 		super(Material.ROCK);
 		setUnlocalizedName(Reference.WeatherControlBlocks.CLEAR_ORE.getUnlocalizedName());
 		setRegistryName(Reference.WeatherControlBlocks.CLEAR_ORE.getRegistryName());
-		setHardness(1.0F);
+		setHardness(3.0F);
 		setCreativeTab(WeatherControl.CREATIVE_TAB); //to add the item to creative tab
+		setHarvestLevel("pickaxe", 3);
 	}
 
 }

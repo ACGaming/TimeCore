@@ -8,7 +8,7 @@ import net.minecraft.block.material.Material;
 public class BlockCloudOre extends Block {
 
 	public BlockCloudOre() {
-		super(Material.ROCK);
+		super(Material.CLOTH);
 		setUnlocalizedName(Reference.WeatherControlBlocks.CLOUD_ORE.getUnlocalizedName());
 		setRegistryName(Reference.WeatherControlBlocks.CLOUD_ORE.getRegistryName());
 		setHardness(1.0F);

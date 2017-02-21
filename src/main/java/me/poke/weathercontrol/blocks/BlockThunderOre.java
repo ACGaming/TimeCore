@@ -11,8 +11,9 @@ public class BlockThunderOre extends Block {
 		super(Material.ROCK);
 		setUnlocalizedName(Reference.WeatherControlBlocks.THUNDER_ORE.getUnlocalizedName());
 		setRegistryName(Reference.WeatherControlBlocks.THUNDER_ORE.getRegistryName());
-		setHardness(1.0F);
-		setCreativeTab(WeatherControl.CREATIVE_TAB); //to add the item to creative tab
+		setHardness(3.0F);
+		setCreativeTab(WeatherControl.CREATIVE_TAB); //to add the item to creative tabà
+		setHarvestLevel("pickaxe", 2);
 	}
 
 }
