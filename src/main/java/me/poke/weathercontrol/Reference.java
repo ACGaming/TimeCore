@@ -24,7 +24,15 @@ public class Reference {
 		NIGHTESS("MoonlightEssence", "ItemNightEss"),
 		RAINESS("CloudEssence", "ItemRainEss"),
 		SUNESS("SunlightEssence", "ItemSunEss"),
-		THUNDERESS("ThunderEssence", "ItemThunderEss");
+		THUNDERESS("ThunderEssence", "ItemThunderEss"),
+		//Cores
+		DAYCORE("DaylightCore", "ItemDayCore"),
+		NIGHTCORE("MoonlightCore", "ItemNightCore"),
+		RAINCORE("CloudCore", "ItemRainCore"),
+		SUNCORE("SunlightCore", "ItemSunCore"),
+		THUNDERCORE("ThunderCore", "ItemThunderCore"),
+		//Misc
+		NETHER_SHARD("NetherStarShard", "ItemNetherStarShard");
 		
 		private String unlocalizedName;
 		private String registryName;

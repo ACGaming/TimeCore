@@ -25,6 +25,17 @@ public class ModCrafting {
 		GameRegistry.addSmelting(ModBlocks.MoonOre, new ItemStack(ModItems.NightEss), 0);
 		GameRegistry.addSmelting(ModBlocks.SunOre, new ItemStack(ModItems.DayEss), 0);
 		GameRegistry.addSmelting(ModBlocks.ThunderOre, new ItemStack(ModItems.ThunderEss), 0);
+		
+		//Cores
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.DayCore), " E ", "ESE", " E ", 'E', ModItems.DayEss, 'S', ModItems.NetherStarShard);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.NightCore), " E ", "ESE", " E ", 'E', ModItems.NightEss, 'S', ModItems.NetherStarShard);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.RainCore), " E ", "ESE", " E ", 'E', ModItems.RainEss, 'S', ModItems.NetherStarShard);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.SunCore), " E ", "ESE", " E ", 'E', ModItems.SunEss, 'S', ModItems.NetherStarShard);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.ThunderCore), " E ", "ESE", " E ", 'E', ModItems.ThunderEss, 'S', ModItems.NetherStarShard);
+		
+		//Misc
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.NetherStarShard, 9), Items.NETHER_STAR);
+		GameRegistry.addShapedRecipe(new ItemStack(Items.NETHER_STAR), "SSS", "SSS", "SSS", 'S', ModItems.NetherStarShard);
 			
 	}
 }

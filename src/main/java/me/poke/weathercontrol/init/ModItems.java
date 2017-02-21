@@ -7,11 +7,17 @@ import me.poke.weathercontrol.items.capsule.ItemNightCap;
 import me.poke.weathercontrol.items.capsule.ItemRainCap;
 import me.poke.weathercontrol.items.capsule.ItemSunCap;
 import me.poke.weathercontrol.items.capsule.ItemThunderStormCap;
+import me.poke.weathercontrol.items.cores.ItemDayCore;
+import me.poke.weathercontrol.items.cores.ItemNightCore;
+import me.poke.weathercontrol.items.cores.ItemRainCore;
+import me.poke.weathercontrol.items.cores.ItemSunCore;
+import me.poke.weathercontrol.items.cores.ItemThunderCore;
 import me.poke.weathercontrol.items.essence.ItemDayEss;
 import me.poke.weathercontrol.items.essence.ItemNightEss;
 import me.poke.weathercontrol.items.essence.ItemRainEss;
 import me.poke.weathercontrol.items.essence.ItemSunEss;
 import me.poke.weathercontrol.items.essence.ItemThunderEss;
+import me.poke.weathercontrol.items.misc.ItemNetherStarShard;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -24,6 +30,12 @@ public class ModItems {
 
 	//Essences
 	public static Item EmptyEssenceContainer, SunEss, RainEss, ThunderEss, DayEss, NightEss;
+	
+	//Cores
+	public static Item SunCore, RainCore, ThunderCore, DayCore, NightCore;
+	
+	//Misc
+	public static Item NetherStarShard;
 	
 	public static void init(){
 		//Capsules
@@ -41,6 +53,15 @@ public class ModItems {
 		DayEss = new ItemDayEss();
 		NightEss = new ItemNightEss();
 		
+		//Cores
+		SunCore = new ItemSunCore();
+		RainCore = new ItemRainCore();
+		ThunderCore = new ItemThunderCore();
+		DayCore = new ItemDayCore();
+		NightCore = new ItemNightCore();
+		
+		//Misc
+		NetherStarShard = new ItemNetherStarShard();
 	}
 	
 	public static void register(){
@@ -58,6 +79,16 @@ public class ModItems {
 		GameRegistry.register(ThunderEss);
 		GameRegistry.register(DayEss);
 		GameRegistry.register(NightEss);
+		
+		//Cores
+		GameRegistry.register(SunCore);
+		GameRegistry.register(RainCore);
+		GameRegistry.register(ThunderCore);
+		GameRegistry.register(DayCore);
+		GameRegistry.register(NightCore);
+		
+		//Misc
+		GameRegistry.register(NetherStarShard);
 	}
 	
 	public static void registerRenders(){
@@ -75,6 +106,16 @@ public class ModItems {
 		registerRender(ThunderEss);
 		registerRender(DayEss);
 		registerRender(NightEss);
+		
+		//Cores
+		registerRender(SunCore);
+		registerRender(RainCore);
+		registerRender(ThunderCore);
+		registerRender(DayCore);
+		registerRender(NightCore);
+		
+		//Misc
+		registerRender(NetherStarShard);
 		
 	}
 	

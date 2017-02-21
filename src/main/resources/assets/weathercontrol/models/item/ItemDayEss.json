@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "weathercontrol:items/sun_ess"
+        "layer0": "weathercontrol:items/day_fragment"
     }
 }
