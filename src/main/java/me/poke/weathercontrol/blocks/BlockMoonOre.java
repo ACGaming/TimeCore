@@ -11,9 +11,10 @@ public class BlockMoonOre extends Block {
 		super(Material.ROCK);
 		setUnlocalizedName(Reference.WeatherControlBlocks.MOON_ORE.getUnlocalizedName());
 		setRegistryName(Reference.WeatherControlBlocks.MOON_ORE.getRegistryName());
-		setHardness(3.0F);
+		setHardness(2.0F);
 		setCreativeTab(WeatherControl.CREATIVE_TAB); //to add the item to creative tab
 		setHarvestLevel("pickaxe", 3);
+		setLightLevel(1);
 	}
 
 }

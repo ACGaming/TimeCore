@@ -1,15 +1,23 @@
-item.EmptyCapsule.name=Empty Capsule
-item.SunCapsule.name=Sunlight Capsule
-item.RainCapsule.name=Rain Capsule
-item.ThunderStormCapsule.name=Thunder Storm Capsule
-item.DayCapsule.name=Daylight Capsule
-item.NightCapsule.name=Moonlight Capsule
+item.EmptyCapsule.name=Empty Stabilizing Capsule
+item.SunCapsule.name=Stabilized Sunlight Core
+item.RainCapsule.name=Stabilized Rain Core
+item.ThunderStormCapsule.name=Stabilized Thunder Core
+item.DayCapsule.name=Stabilized Daylight Core
+item.NightCapsule.name=Stabilized Moonlight Core
 
 item.DaylightEssence.name=Condensed Daylight Fragment
-item.MoonlightEssence.name=Condensed Lunar Fragment
+item.MoonlightEssence.name=Condensed Moonlight Fragment
 item.CloudEssence.name=Condensed Cloud Fragment
 item.SunlightEssence.name=Condensed Sunlight Fragment
 item.ThunderEssence.name=Condensed Thunder Fragment
+
+item.NetherStarShard.name=Nether Star Shard
+
+item.DaylightCore.name=Unstable Daylight Core
+item.MoonlightCore.name=Unstable Moonlight Core
+item.CloudCore.name=Unstable Cloud Core
+item.SunlightCore.name=Unstable Sunlight Core
+item.ThunderCore.name=Unstable Thunder Core
 
 tile.SunOre.name=Condensed Daylight Ore
 tile.ClearOre.name=Condensed Sunlight Ore
