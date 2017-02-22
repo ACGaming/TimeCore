@@ -1,11 +1,11 @@
 [
 {
   "modid": "weathercontrol",
-  "name": "Weather Control mod",
-  "description": "Mod that lets you control the weather!",
-  "version": "ALPHA",
+  "name": "TimeCore",
+  "description": "Add items that let you control the time and weather!",
+  "version": "0.1",
   "mcversion": "1.10.2",
-  "url": "",
+  "url": "https://github.com/pokeba/TimeCore",
   "updateUrl": "",
   "authorList": ["Poke"],
   "logoFile": "",
