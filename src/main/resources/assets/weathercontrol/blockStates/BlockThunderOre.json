@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "weathercontrol:blockthunderore" }
+        "normal": { "model": "weathercontrol:BlockThunderOre" }
     }
 }

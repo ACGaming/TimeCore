@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "weathercontrol:blockcloudore" }
+        "normal": { "model": "weathercontrol:BlockCloudOre" }
     }
 }
