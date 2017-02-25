@@ -14,7 +14,6 @@ public class BlockMoonOre extends Block {
 		setHardness(2.0F);
 		setCreativeTab(WeatherControl.CREATIVE_TAB); //to add the item to creative tab
 		setHarvestLevel("pickaxe", 3);
-		setLightLevel(1);
+		setLightLevel(2);
 	}
-
 }
