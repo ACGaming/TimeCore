@@ -9,8 +9,8 @@ import me.poke.timecore.items.fragments.ItemThunderFragment;
 import me.poke.timecore.items.misc.ItemEmptyCap;
 import me.poke.timecore.items.misc.ItemNetherStarShard;
 import me.poke.timecore.items.stabcores.ItemStabCloudCore;
-import me.poke.timecore.items.stabcores.ItemStabDayCore;
-import me.poke.timecore.items.stabcores.ItemStabNightCore;
+import me.poke.timecore.items.stabcores.ItemStabDaylightCore;
+import me.poke.timecore.items.stabcores.ItemStabMoonlightCore;
 import me.poke.timecore.items.stabcores.ItemStabSunlightCore;
 import me.poke.timecore.items.stabcores.ItemStabThunderCore;
 import me.poke.timecore.items.unstabcores.ItemUnstabCloudCore;
@@ -43,8 +43,8 @@ public class ModItems {
 		SunCapsule = new ItemStabSunlightCore();
 		RainCapsule = new ItemStabCloudCore();
 		ThunderStormCapsule = new ItemStabThunderCore();
-		DayCapsule = new ItemStabDayCore();
-		NightCapsule = new ItemStabNightCore();
+		DayCapsule = new ItemStabDaylightCore();
+		NightCapsule = new ItemStabMoonlightCore();
 		
 		//Essences
 		SunEss = new ItemSunlightFragment();

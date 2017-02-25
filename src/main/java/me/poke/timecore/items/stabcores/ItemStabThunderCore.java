@@ -1,5 +1,7 @@
 package me.poke.timecore.items.stabcores;
 
+import java.util.List;
+
 import me.poke.timecore.Reference;
 import me.poke.timecore.TimeCore;
 import net.minecraft.entity.player.EntityPlayer;
@@ -37,4 +39,9 @@ public class ItemStabThunderCore extends Item {
 		}
 		return super.onItemRightClick(itemStackIn, worldIn, playerIn, hand);
 	}
+    
+    @Override
+    public void addInformation(ItemStack stack, EntityPlayer playerIn, List<String> tooltip, boolean advanced) {
+    	tooltip.add("Thunder storms can be relaxing too");
+    }
 }
