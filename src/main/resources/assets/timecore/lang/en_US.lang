@@ -1,0 +1,28 @@
+item.EmptyCapsule.name=Empty Stabilizing Capsule
+item.StabSunlightCore.name=Stabilized Sunlight Core
+item.StabCloudCore.name=Stabilized Cloud Core
+item.StabThunderCore.name=Stabilized Thunder Core
+item.StabDaylightCore.name=Stabilized Daylight Core
+item.StabMoonlightCore.name=Stabilized Moonlight Core
+
+item.DaylightFragment.name=Condensed Daylight Fragment
+item.MoonlightFragment.name=Condensed Moonlight Fragment
+item.CloudFragment.name=Condensed Cloud Fragment
+item.SunlightFragment.name=Condensed Sunlight Fragment
+item.ThunderFragment.name=Condensed Thunder Fragment
+
+item.NetherStarShard.name=Nether Star Shard
+
+item.UnstabDaylightCore.name=Unstable Daylight Core
+item.UnstabMoonlightCore.name=Unstable Moonlight Core
+item.UnstabCloudCore.name=Unstable Cloud Core
+item.UnstabSunlightCore.name=Unstable Sunlight Core
+item.UnstabThunderCore.name=Unstable Thunder Core
+
+tile.DaylightOre.name=Condensed Daylight Ore
+tile.SunlightOre.name=Condensed Sunlight Ore
+tile.MoonlightOre.name=Condensed Moonlight Ore
+tile.ThunderOre.name=Condensed Thunder Ore
+tile.CloudOre.name=Condensed Cloud Ore
+
+itemGroup.tabTimeCore=TimeCore

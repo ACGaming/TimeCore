@@ -1,6 +1,6 @@
 [
 {
-  "modid": "weathercontrol",
+  "modid": "timecore",
   "name": "TimeCore",
   "description": "Add items that let you control the time and weather!",
   "version": "0.1",
