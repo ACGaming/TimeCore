@@ -18,6 +18,12 @@ import me.poke.timecore.items.unstabcores.ItemUnstabDayCore;
 import me.poke.timecore.items.unstabcores.ItemUnstabMoonlightCore;
 import me.poke.timecore.items.unstabcores.ItemUnstabSunCore;
 import me.poke.timecore.items.unstabcores.ItemUnstabThunderCore;
+import me.poke.timecore.items.wands.ItemCloudWand;
+import me.poke.timecore.items.wands.ItemDaylightWand;
+import me.poke.timecore.items.wands.ItemEmptyWand;
+import me.poke.timecore.items.wands.ItemMoonlightWand;
+import me.poke.timecore.items.wands.ItemSunlightWand;
+import me.poke.timecore.items.wands.ItemThunderWand;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -26,10 +32,10 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModItems {
 	
 	//Capsules
-	public static Item EmptyCapsule, SunCapsule, RainCapsule, ThunderStormCapsule, DayCapsule, NightCapsule;
+	public static Item EmptyCapsule, StabSunlightCore, StabCloudCore, StabThunderCore, StabDaylightCore, StabMoonlightCore;
 
-	//Essences
-	public static Item EmptyEssenceContainer, SunEss, RainEss, ThunderEss, DayEss, NightEss;
+	//Fragments
+	public static Item SunlightFragment, CloudFragment, ThunderFragment, DaylightFragment, MoonlightFragment;
 	
 	//Cores
 	public static Item SunCore, RainCore, ThunderCore, DayCore, NightCore;
@@ -37,21 +43,24 @@ public class ModItems {
 	//Misc
 	public static Item NetherStarShard;
 	
+	//Wands
+	public static Item EmptyWand, SunlightWand, CloudWand, ThunderWand, DaylightWand, MoonlightWand;
+	
 	public static void init(){
 		//Capsules
 		EmptyCapsule = new ItemEmptyCap();
-		SunCapsule = new ItemStabSunlightCore();
-		RainCapsule = new ItemStabCloudCore();
-		ThunderStormCapsule = new ItemStabThunderCore();
-		DayCapsule = new ItemStabDaylightCore();
-		NightCapsule = new ItemStabMoonlightCore();
+		StabSunlightCore = new ItemStabSunlightCore();
+		StabCloudCore = new ItemStabCloudCore();
+		StabThunderCore = new ItemStabThunderCore();
+		StabDaylightCore = new ItemStabDaylightCore();
+		StabMoonlightCore = new ItemStabMoonlightCore();
 		
 		//Essences
-		SunEss = new ItemSunlightFragment();
-		RainEss = new ItemCloudFragment();
-		ThunderEss = new ItemThunderFragment();
-		DayEss = new ItemDaylightFragment();
-		NightEss = new ItemMoonlightFragment();
+		SunlightFragment = new ItemSunlightFragment();
+		CloudFragment = new ItemCloudFragment();
+		ThunderFragment = new ItemThunderFragment();
+		DaylightFragment = new ItemDaylightFragment();
+		MoonlightFragment = new ItemMoonlightFragment();
 		
 		//Cores
 		SunCore = new ItemUnstabSunCore();
@@ -62,23 +71,31 @@ public class ModItems {
 		
 		//Misc
 		NetherStarShard = new ItemNetherStarShard();
+		
+		//Wands
+		EmptyWand = new ItemEmptyWand();
+		SunlightWand = new ItemSunlightWand();
+		CloudWand = new ItemCloudWand();
+		ThunderWand = new ItemThunderWand();
+		DaylightWand = new ItemDaylightWand();
+		MoonlightWand = new ItemMoonlightWand();
 	}
 	
 	public static void register(){
 		//Capsule
 		GameRegistry.register(EmptyCapsule);
-		GameRegistry.register(SunCapsule);
-		GameRegistry.register(RainCapsule);
-		GameRegistry.register(ThunderStormCapsule);
-		GameRegistry.register(DayCapsule);
-		GameRegistry.register(NightCapsule);
+		GameRegistry.register(StabSunlightCore);
+		GameRegistry.register(StabCloudCore);
+		GameRegistry.register(StabThunderCore);
+		GameRegistry.register(StabDaylightCore);
+		GameRegistry.register(StabMoonlightCore);
 		
-		//Essences
-		GameRegistry.register(SunEss);
-		GameRegistry.register(RainEss);
-		GameRegistry.register(ThunderEss);
-		GameRegistry.register(DayEss);
-		GameRegistry.register(NightEss);
+		//Fragments
+		GameRegistry.register(SunlightFragment);
+		GameRegistry.register(CloudFragment);
+		GameRegistry.register(ThunderFragment);
+		GameRegistry.register(DaylightFragment);
+		GameRegistry.register(MoonlightFragment);
 		
 		//Cores
 		GameRegistry.register(SunCore);
@@ -89,23 +106,31 @@ public class ModItems {
 		
 		//Misc
 		GameRegistry.register(NetherStarShard);
+		
+		//Wands
+		GameRegistry.register(EmptyWand);
+		GameRegistry.register(SunlightWand);
+		GameRegistry.register(CloudWand);
+		GameRegistry.register(ThunderWand);
+		GameRegistry.register(DaylightWand);
+		GameRegistry.register(MoonlightWand);
 	}
 	
 	public static void registerRenders(){
 		//Capsule
 		registerRender(EmptyCapsule);
-		registerRender(SunCapsule);
-		registerRender(RainCapsule);
-		registerRender(ThunderStormCapsule);
-		registerRender(DayCapsule);
-		registerRender(NightCapsule);
+		registerRender(StabSunlightCore);
+		registerRender(StabCloudCore);
+		registerRender(StabThunderCore);
+		registerRender(StabDaylightCore);
+		registerRender(StabMoonlightCore);
 		
-		//Essences
-		registerRender(SunEss);
-		registerRender(RainEss);
-		registerRender(ThunderEss);
-		registerRender(DayEss);
-		registerRender(NightEss);
+		//Fragments
+		registerRender(SunlightFragment);
+		registerRender(CloudFragment);
+		registerRender(ThunderFragment);
+		registerRender(DaylightFragment);
+		registerRender(MoonlightFragment);
 		
 		//Cores
 		registerRender(SunCore);
@@ -116,6 +141,14 @@ public class ModItems {
 		
 		//Misc
 		registerRender(NetherStarShard);
+		
+		//Wands
+		registerRender(EmptyWand);
+		registerRender(SunlightWand);
+		registerRender(CloudWand);
+		registerRender(ThunderWand);
+		registerRender(DaylightWand);
+		registerRender(MoonlightWand);
 		
 	}
 	

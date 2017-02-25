@@ -13,6 +13,13 @@ item.ThunderFragment.name=Condensed Thunder Fragment
 
 item.NetherStarShard.name=Nether Star Shard
 
+item.EmptyWand.name=Empty Wand
+item.DaylightWand.name=Wand of Daylight
+item.SunlightWand.name=Wand of Sunlight
+item.MoonlightWand.name=Wand of Moonlight
+item.CloudWand.name=Wand of Cloud
+item.ThunderWand.name=Wand of Thunder
+
 item.UnstabDaylightCore.name=Unstable Daylight Core
 item.UnstabMoonlightCore.name=Unstable Moonlight Core
 item.UnstabCloudCore.name=Unstable Cloud Core
@@ -24,5 +31,6 @@ tile.SunlightOre.name=Condensed Sunlight Ore
 tile.MoonlightOre.name=Condensed Moonlight Ore
 tile.ThunderOre.name=Condensed Thunder Ore
 tile.CloudOre.name=Condensed Cloud Ore
+
 
 itemGroup.tabTimeCore=TimeCore

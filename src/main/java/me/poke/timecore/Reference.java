@@ -33,8 +33,17 @@ public class Reference {
 		CLOUD_FRAGMENT("CloudFragment", "cloud_fragment"),
 		SUNLIGHT_FRAGMENT("SunlightFragment", "sunlight_fragment"),
 		THUNDER_FRAGMENT("ThunderFragment", "thunder_fragment"),
+		
 		//Misc
-		NETHER_SHARD("NetherStarShard", "netherstar_shard");
+		NETHER_SHARD("NetherStarShard", "netherstar_shard"),
+		
+		//Wands
+		EMPTY_WAND("EmptyWand", "empty_wand"),
+		SUNLIGHT_WAND("SunlightWand", "sunlight_wand"),
+		CLOUD_WAND("CloudWand", "cloud_wand"),
+		THUNDER_WAND("ThunderWand", "thunder_wand"),
+		DAYLIGHT_WAND("DaylightWand", "daylight_wand"),
+		MOONLIGHT_WAND("MoonlightWand", "moonlight_wand");
 		
 		private String unlocalizedName;
 		private String registryName;
