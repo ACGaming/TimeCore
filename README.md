@@ -3,4 +3,4 @@
 
 ####Visit the [Wiki](https://github.com/pokeba/TimeCore/wiki) for more information!
 ####[Forge page](https://minecraft.curseforge.com/projects/timecore)
-![cores](http://i.imgur.com/52Zmwsp.gifv)
+![](http://i.imgur.com/52Zmwsp.gif)
