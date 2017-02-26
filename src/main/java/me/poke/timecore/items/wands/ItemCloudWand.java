@@ -2,6 +2,7 @@ package me.poke.timecore.items.wands;
 
 import me.poke.timecore.Reference;
 import me.poke.timecore.TimeCore;
+import me.poke.timecore.init.ModItems;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -31,7 +32,8 @@ public class ItemCloudWand extends Item {
 				worldInfo.setRaining(true);
 				worldInfo.setThundering(false);
 				itemStackIn.damageItem(1, playerIn);
-				
+				if(playerIn.getHeldItem(hand) == null)
+					playerIn.setItemStackToSlot(hand, ModItems.EmptyWand);
 			}
 		}
 		return super.onItemRightClick(itemStackIn, worldIn, playerIn, hand);
