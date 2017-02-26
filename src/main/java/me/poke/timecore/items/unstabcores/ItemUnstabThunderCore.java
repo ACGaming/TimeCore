@@ -7,7 +7,7 @@ import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
-import scala.actors.IScheduler;
+
 
 public class ItemUnstabThunderCore extends Item {
 
