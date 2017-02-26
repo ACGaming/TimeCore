@@ -9,7 +9,7 @@ public class ModCrafting {
 
 	public static void register()
 	{
-		//Capsules CHANGER ITEM
+		//Stable Cores
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.EmptyCapsule), "OEO", "DGD", "OEO", 'G', Blocks.GLASS_PANE, 'O', Items.GOLD_INGOT, 'E', Items.EMERALD, 'D', Items.DIAMOND);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.StabDaylightCore), ModItems.EmptyCapsule, ModItems.DayCore);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.StabMoonlightCore), ModItems.EmptyCapsule, ModItems.NightCore);
@@ -38,6 +38,10 @@ public class ModCrafting {
 		
 		//Wands
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.EmptyWand), "  N", "DG ","ED ", 'N', Items.NETHER_STAR, 'G', Blocks.GOLD_BLOCK, 'D', Blocks.DIAMOND_BLOCK, 'E', Items.EMERALD);
-			
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.CloudWand), ModItems.EmptyWand, ModItems.RainCore);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.DaylightWand), ModItems.EmptyWand, ModItems.DayCore);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.MoonlightWand), ModItems.EmptyWand, ModItems.NightCore);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.SunlightWand), ModItems.EmptyWand, ModItems.SunCore);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ThunderWand), ModItems.EmptyWand, ModItems.ThunderCore);
 	}
 }

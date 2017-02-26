@@ -47,7 +47,7 @@ public class ModItems {
 	public static Item EmptyWand, SunlightWand, CloudWand, ThunderWand, DaylightWand, MoonlightWand;
 	
 	public static void init(){
-		//Capsules
+		//Stable cores
 		EmptyCapsule = new ItemEmptyCap();
 		StabSunlightCore = new ItemStabSunlightCore();
 		StabCloudCore = new ItemStabCloudCore();
@@ -55,14 +55,14 @@ public class ModItems {
 		StabDaylightCore = new ItemStabDaylightCore();
 		StabMoonlightCore = new ItemStabMoonlightCore();
 		
-		//Essences
+		//Fragments
 		SunlightFragment = new ItemSunlightFragment();
 		CloudFragment = new ItemCloudFragment();
 		ThunderFragment = new ItemThunderFragment();
 		DaylightFragment = new ItemDaylightFragment();
 		MoonlightFragment = new ItemMoonlightFragment();
 		
-		//Cores
+		//Unstable Cores
 		SunCore = new ItemUnstabSunCore();
 		RainCore = new ItemUnstabCloudCore();
 		ThunderCore = new ItemUnstabThunderCore();
