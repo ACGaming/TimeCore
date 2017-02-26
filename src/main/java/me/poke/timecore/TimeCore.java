@@ -27,7 +27,7 @@ public class TimeCore {
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event){
-		System.out.println("Weather Control PreInititialization...");
+		System.out.println("TimeCore PreInititialization...");
 		
 		ModItems.init();
 		ModItems.register();
@@ -40,15 +40,14 @@ public class TimeCore {
 	
 	@EventHandler
 	public void Init(FMLInitializationEvent event){
-		System.out.println("Weather Control Inititialization...");
+		System.out.println("TimeCore Inititialization...");
 		proxy.init();
-		
 		ModCrafting.register();
 
 	}
 	
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event){
-		System.out.println("Weather Control Post Inititialization...");
+		System.out.println("TimeCore Post Inititialization...");
 	}
 }
