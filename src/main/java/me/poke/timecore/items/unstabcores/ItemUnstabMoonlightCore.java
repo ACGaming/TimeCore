@@ -22,7 +22,7 @@ public class ItemUnstabMoonlightCore extends Item {
 	@Override
 	public void onUpdate(ItemStack stack, World worldIn, Entity entityIn, int itemSlot, boolean isSelected) {
 		EntityPlayer player = (EntityPlayer) entityIn;
-		player.addPotionEffect((new PotionEffect(Potion.getPotionById(15),1200,1)));
+		player.addPotionEffect((new PotionEffect(Potion.getPotionById(15),600,1)));
 		super.onUpdate(stack, worldIn, entityIn, itemSlot, isSelected);
 	}
 

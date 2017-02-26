@@ -19,10 +19,12 @@ public class ItemUnstabThunderCore extends Item {
 
 	@Override
 	public void onUpdate(ItemStack stack, World worldIn, Entity entityIn, int itemSlot, boolean isSelected) {
-		EntityLightningBolt lightning = new EntityLightningBolt(worldIn, entityIn.posX, entityIn.posY, entityIn.posZ, false);
-		int timeUpdate = 200; //Every 10 sec
-		if(worldIn.getWorldTime() % timeUpdate == 0)
-			worldIn.spawnEntityInWorld(lightning);
+		if(!worldIn.isRemote){
+			EntityLightningBolt lightning = new EntityLightningBolt(worldIn, entityIn.posX, entityIn.posY, entityIn.posZ, false);
+			int timeUpdate = 200; //Every 10 sec
+			if(worldIn.getWorldTime() % timeUpdate == 0)
+				worldIn.spawnEntityInWorld(lightning);
+		}
 		super.onUpdate(stack, worldIn, entityIn, itemSlot, isSelected);
 	}
 }
