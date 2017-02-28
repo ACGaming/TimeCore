@@ -17,6 +17,7 @@ public class ItemCloudWand extends Item {
 		setRegistryName(Reference.WeatherControlItems.CLOUD_WAND.getRegistryName());
 		setCreativeTab(TimeCore.CREATIVE_TAB);
 		setMaxDamage(10);
+		setMaxStackSize(1);
 	}
 	
 	@Override
@@ -32,8 +33,6 @@ public class ItemCloudWand extends Item {
 				worldInfo.setRaining(true);
 				worldInfo.setThundering(false);
 				itemStackIn.damageItem(1, playerIn);
-				if(playerIn.getHeldItem(hand) == null)
-					playerIn.setItemStackToSlot(hand, ModItems.EmptyWand);
 			}
 		}
 		return super.onItemRightClick(itemStackIn, worldIn, playerIn, hand);

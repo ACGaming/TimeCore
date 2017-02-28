@@ -15,6 +15,7 @@ public class ItemDaylightWand extends Item {
 		setRegistryName(Reference.WeatherControlItems.DAYLIGHT_WAND.getRegistryName());
 		setCreativeTab(TimeCore.CREATIVE_TAB);
 		setMaxDamage(10);
+		setMaxStackSize(1);
 	}
 	
 	@Override

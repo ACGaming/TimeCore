@@ -9,5 +9,6 @@ public class ItemEmptyWand extends Item {
 		setUnlocalizedName(Reference.WeatherControlItems.EMPTY_WAND.getUnlocalizedName());
 		setRegistryName(Reference.WeatherControlItems.EMPTY_WAND.getRegistryName());
 		setCreativeTab(TimeCore.CREATIVE_TAB);
+		setMaxStackSize(1);
 	}
 }

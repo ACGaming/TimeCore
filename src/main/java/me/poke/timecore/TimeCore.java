@@ -4,6 +4,7 @@ import me.poke.timecore.init.ModBlocks;
 import me.poke.timecore.init.ModCrafting;
 import me.poke.timecore.init.ModItems;
 import me.poke.timecore.proxy.CommonProxy;
+import me.poke.timecore.tileentity.TileEntityConcentrator;
 import me.poke.timecore.world.ModWorldGeneration;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -44,6 +45,7 @@ public class TimeCore {
 		proxy.init();
 		ModCrafting.register();
 
+		GameRegistry.registerTileEntity(TileEntityConcentrator.class, Reference.MOD_ID+"TileEntityConcentrator");
 	}
 	
 	@EventHandler

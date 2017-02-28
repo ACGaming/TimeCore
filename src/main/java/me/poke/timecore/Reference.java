@@ -68,7 +68,8 @@ public class Reference {
 		CLOUD_ORE("CloudOre", "cloud_ore"),
 		MOONLIGHT_ORE("MoonlightOre", "moonlight_ore"),
 		SUNLIGHT_ORE("SunlightOre", "sunlight_ore"),
-		THUNDER_ORE("ThunderOre", "thunder_ore");
+		THUNDER_ORE("ThunderOre", "thunder_ore"),
+		CONCENTRATOR("Concentrator", "concentrator");
 		
 		private String unlocalizedName;
 		private String registryName;

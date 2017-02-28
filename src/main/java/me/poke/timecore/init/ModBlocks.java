@@ -1,6 +1,7 @@
 package me.poke.timecore.init;
 
 import me.poke.timecore.blocks.BlockCloudOre;
+import me.poke.timecore.blocks.BlockConcentrator;
 import me.poke.timecore.blocks.BlockDaylightOre;
 import me.poke.timecore.blocks.BlockMoonlightOre;
 import me.poke.timecore.blocks.BlockSunlightOre;
@@ -14,7 +15,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModBlocks {
 	
-	public static Block SunOre, CloudOre, MoonOre, ClearOre, ThunderOre;
+	public static Block SunOre, CloudOre, MoonOre, ClearOre, ThunderOre, Concentrator;
 
 	
 	public static void init(){
@@ -23,6 +24,7 @@ public class ModBlocks {
 		MoonOre = new BlockMoonlightOre();
 		ClearOre = new BlockSunlightOre();
 		ThunderOre = new BlockThunderOre();
+		Concentrator = new BlockConcentrator();
 		
 	}
 	
@@ -33,6 +35,7 @@ public class ModBlocks {
 		registerBlock(MoonOre);
 		registerBlock(ClearOre);
 		registerBlock(ThunderOre);
+		registerBlock(Concentrator);
 		
 	}
 	
@@ -49,6 +52,7 @@ public class ModBlocks {
 		registerRender(MoonOre);
 		registerRender(ClearOre);
 		registerRender(ThunderOre);
+		registerRender(Concentrator);
 		
 	}
 	

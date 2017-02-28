@@ -16,6 +16,7 @@ public class ItemThunderWand extends Item {
 		setRegistryName(Reference.WeatherControlItems.THUNDER_WAND.getRegistryName());
 		setCreativeTab(TimeCore.CREATIVE_TAB);
 		setMaxDamage(10);
+		setMaxStackSize(1);
 	}
 	
 	@Override
